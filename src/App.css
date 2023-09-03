@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-header img {
-  width: 80px;
-}
-
 /* grid */
 
 .app-wrapper {
@@ -20,29 +16,4 @@ header img {
   /* grid-gap: 10px; */
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.header {
-  grid-area: h;
-  background-color:darksalmon;
-  border-radius: 10px;
-}
-
-.nav {
-  grid-area: n;
-  background-color:darksalmon;
-  text-decoration: none;
-  border-radius: 10px;
-}
-
-.content {
-  grid-area: c;
-  background-color:darksalmon;
-  border-radius: 10px;
-}
-
-/* content */
-
-.content img {
-  width: 100%;
 }

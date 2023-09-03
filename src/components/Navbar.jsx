@@ -1,19 +1,21 @@
+import style from './Navbar.module.css';
+
 const Navbar = () => {
     return (
-        <nav className='nav'>
-        <div>
+        <nav className={style.nav}>
+        <div className={`${style.item} ${style.active}`}>
           <a href="#">Profile</a>
         </div>
-        <div>
+        <div className={style.item}>
           <a href="#">Messages</a>
         </div>
-        <div>
+        <div className={style.item}>
           <a href="#">News</a>
         </div>
-        <div>
+        <div className={style.item}>
           <a href="#">Music</a>
         </div>
-        <div>
+        <div className={style.item}>
           <a href="#">Settings</a>
         </div>
       </nav>
