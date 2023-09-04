@@ -1,7 +1,7 @@
 import MyPosts from "./MyPosts/MyPosts";
 import style from "./Profile.module.css";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={style.content}>
         <div className={style.backgroundImg}>

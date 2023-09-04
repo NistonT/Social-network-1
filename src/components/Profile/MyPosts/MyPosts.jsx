@@ -10,11 +10,11 @@ const MyPosts = () => {
             <button>Add Post</button>
           </div>
           <div className={style.posts}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post message='—Знаете, для чего в самолётах нужны кислородные маски?' like='4'/>
+            <Post message='— А чем вы занимаетесь? ' like='10' />
+            <Post message='— Мыло!' like='0' />
+            <Post message='— Что?' like='1' />
+            <Post message='—Я произвожу мыло. Ведь мыло — критерий цивилизованности. ' like='2' />
           </div>
         </div>
     );

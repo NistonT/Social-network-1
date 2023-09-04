@@ -4,3 +4,8 @@
     border-radius: 10px;
     margin: 10px;
 }
+
+.like {
+    color: red;
+    padding-left: 25px;
+}
