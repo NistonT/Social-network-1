@@ -5,10 +5,20 @@
     border-radius: 10px;
 }
 
-.item a{
-  color: white;
+.link {
+  text-align: left;
+  padding-left: 25px;
 }
 
-.item.active a {
+.link a {
+  font-size: 30px;
+}
+
+.item{
+  color: white;
+  text-decoration: none;
+}
+
+.activeLink {
   color: blueviolet;
 }

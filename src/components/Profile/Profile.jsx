@@ -3,7 +3,7 @@ import style from "./Profile.module.css";
 
 const Profile = (props) => {
     return (
-        <div className={style.content}>
+        <div>
         <div className={style.backgroundImg}>
           <img src="https://static3.coolconnections.ru/images/11176/standard/hd/4023cda6252e6e6846e98133da9aaaa25cbc05c0.jpg?1561021808" alt="background" />
         </div>
