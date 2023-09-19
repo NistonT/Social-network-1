@@ -1,0 +1,22 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialog{
+    font-size: 24px;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.messages {
+    border-left: 3px solid blueviolet;
+    padding-left: 10px;
+}
